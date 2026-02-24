@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  width: 100%;
 }
 
 .layout {
@@ -20,10 +21,11 @@
 }
 
 .grid-container {
-  width: 620px;
-  height: 360px;
+  width: 700px;
+  height: 320px;
   display: grid;
-  grid-template-columns: 1.3fr 1.3fr 1fr 1fr;
+  /* All four columns equal so 1,2,7,8 match in size */
+  grid-template-columns: repeat(4, 1fr);
   /* Four rows so 1 & 2 can be tall
     and 3 & 4 stack beside them */
   grid-template-rows: 1fr 1fr 1fr 1fr;

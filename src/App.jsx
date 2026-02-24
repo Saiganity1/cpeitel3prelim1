@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="page">
       <div className="layout">
-        <h1 className="student-name">Juan Dela Cruz</h1>
+        <h1 className="student-name">Michael Dave P. Sicat</h1>
 
         <div className="grid-container">
           <div className="cell cell-1">1</div>
